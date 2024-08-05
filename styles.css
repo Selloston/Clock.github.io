@@ -21,3 +21,15 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 10px black;
 }
+
+@media only screen and (max-width: 600px) {
+    #clock {
+        width: 280px;
+        height: 80px;
+        font-size: 3rem;
+        background-color: rgba(128, 128, 128, 0.193);
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+    }
+}
